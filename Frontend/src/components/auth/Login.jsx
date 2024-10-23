@@ -30,7 +30,6 @@ const Login = () => {
         },
         withCredentials: true,
       });
-      console.log(error.response);
       if (res.data.success) {
         navigate("/");
         toast.success(res.data.messege);
