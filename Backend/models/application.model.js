@@ -1,4 +1,3 @@
-
 import mongoose from "mongoose";
 
 const applicationSchema = new mongoose.Schema({
@@ -14,8 +13,8 @@ const applicationSchema = new mongoose.Schema({
     },
     status:{
         type:String,
-        enum:['pending','accepted','rejected'],
+        enum:['pending', 'accepted', 'rejected'],
         default:'pending'
     }
-} , {timestamps:true});
-export const Application = mongoose.model("Application",applicationSchema);
+},{timestamps:true});
+export const Application  = mongoose.model("Application", applicationSchema);

@@ -8,7 +8,7 @@ export const postJob = async (req, res) => {
 
         if (!title || !description || !requirements || !salary || !location || !jobType || !experience || !position || !companyId) {
             return res.status(400).json({
-                message: "Something is missing.",
+                message: "Somethin is missing.",
                 success: false
             })
         };
@@ -64,7 +64,9 @@ export const getAllJobs = async (req, res) => {
 export const getJobById = async (req, res) => {
     try {
         const jobId = req.params.id;
-        const job = await Job.findById(jobId);
+        const job = await Job.findById(jobId).populate({
+            path:"applications"
+        });
         if (!job) {
             return res.status(404).json({
                 message: "Jobs not found.",
