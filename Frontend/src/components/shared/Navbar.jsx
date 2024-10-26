@@ -9,6 +9,7 @@ import axios from 'axios'
 import { USER_API_END_POINT } from '@/utils/constant'
 import { setUser } from '@/redux/authSlice'
 import { toast } from 'sonner'
+import CategoryCarousel from '../user/CategoryCarousel'
 
 const Navbar = () => {
     const { user } = useSelector(store => store.auth);
@@ -30,11 +31,11 @@ const Navbar = () => {
     }
     return (
         <div className='bg-white'>
-            <div className=' flex items-center justify-between mx-auto max-w-7xl h-16'>
+            <div className='flex items-center justify-between fixed top-0 w-full bg-white shadow-md mx-auto py-3 px-5 z-50'>
                 <div>
-                    <h1 className='text-2xl font-bold'>Job<span className='text-[#F83002]'>Portal</span></h1>
+                    <h1 className='text-2xl font-bold'>Hiring<span className='text-[#F83002]'>Tactics</span></h1>
                 </div>
-                <div className='flex items-center gap-12'>
+                <div className='flex items-center gap-12 '>
                     <ul className='flex font-medium items-center gap-5'>
                         {
                             user && user.role === 'recruiter' ? (

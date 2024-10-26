@@ -54,10 +54,14 @@ const Login = () => {
         }
     },[])
     return (
-        <div>
+        <div className="bg-cover bg-center"
+        style={{ 
+            backgroundImage: `url('/bg2.jpg')` 
+        }}
+        >
             <Navbar />
-            <div className='flex items-center justify-center max-w-7xl mx-auto'>
-                <form onSubmit={submitHandler} className='w-1/2 border border-gray-200 rounded-md p-4 my-10'>
+            <div className='flex items-center justify-center max-w-7xl mx-auto py-28'>
+                <form onSubmit={submitHandler} className='w-1/2 border border-blue-500 rounded-md p-4 my-10 shadow-xl backdrop-opacity-75'>
                     <h1 className='font-bold text-xl mb-5'>Login</h1>
                     <div className='my-2'>
                         <Label>Email</Label>
