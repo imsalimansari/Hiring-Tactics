@@ -37,19 +37,15 @@ const Footer = () => {
           <ul className="space-y-3">
             <li className="flex items-center gap-2">
               <FontAwesomeIcon icon={faEnvelope} className="text-blue-600" />
-              <span>E-MAIL: salimptu01@gmail.com</span>
+              <span>E-MAIL : salimptu01@gmail.com</span>
             </li>
             <li className="flex items-center gap-2">
               <FontAwesomeIcon icon={faPhone} className="text-blue-600" />
-              <span>WHATS-APP: +91 8873136656</span>
+              <span>WHATS-APP : +91 8873136656</span>
             </li>
             <li className="flex items-center gap-2">
               <FontAwesomeIcon icon={faBuilding} className="text-blue-600" />
-              <span>CONTACT NO.: +91 8873136656</span>
-            </li>
-            <li className="flex items-center gap-2">
-              <FontAwesomeIcon icon={faGlobe} className="text-blue-600" />
-              <span>WEBSITE: https://www.hiringtactics.com</span>
+              <span>CONTACT NO. : +91 8873136656</span>
             </li>
             <li className="flex gap-4 mt-4">
               <a href="https://www.facebook.com/Iamsalimansari" className="text-blue-600 hover:text-blue-700">
