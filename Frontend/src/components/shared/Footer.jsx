@@ -69,8 +69,7 @@ const Footer = () => {
         </div>
       </div><br />
       <div className="mb-4 md:mb-0 bg-slate-600 text-white text-center">
-            <p>© 2024 Your Company. All rights reserved. | Design & Developed by Hiring Tactics</p>
-            {/* <p>Design & Developed by Hiring Tactics</p> */}
+            <p>© 2024 Hiring Tactics. All rights reserved. | Design & Developed by Hiring Tactics</p>
           </div>
           
     </footer>
