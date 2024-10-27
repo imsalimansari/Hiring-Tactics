@@ -21,7 +21,7 @@ const Choose = () => {
       <div className="flex-1 relative">
         <div className="w-full h-64 lg:h-96 overflow-hidden rounded-tl-[100px] rounded-br-[100px] shadow-lg bg-gradient-to-br from-purple-500 to-indigo-500">
           <img
-            src="/choose.jpg" // Replace with your image URL
+            src="/Job.jpg" // Replace with your image URL
             alt="Why Choose Us"
             className="w-full h-full object-cover opacity-100"
           />
