@@ -1,5 +1,5 @@
 import express, { urlencoded } from "express";
-import connectDB from "./db/connection.js";
+import connectDB from "./utils/db.js";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 import cors from "cors";
@@ -13,7 +13,7 @@ import path from "path";
 dotenv.config();
 // connect db
 connectDB();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 const _dirname = path.resolve();
