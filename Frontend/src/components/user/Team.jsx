@@ -20,9 +20,9 @@ const Team = () => {
           {/* Circle Item 2 */}
           <div className="flex flex-col items-center space-y-4">
             <div className="w-[210px] h-[210px] rounded-full overflow-hidden flex items-center justify-center hover:rounded-md">
-              <img src="//img3.jpg.jpg" alt="Team Member 2" className="w-full h-full object-cover" />
+              <img src="//img3.jpg" alt="Team Member 2" className="w-full h-full object-cover" />
             </div>
-            <h2 className="text-xl font-bold text-gray-800">Riya</h2>
+            <h2 className="text-xl font-bold text-gray-800">Riya Singh</h2>
           </div>
         </div>
       </div>
