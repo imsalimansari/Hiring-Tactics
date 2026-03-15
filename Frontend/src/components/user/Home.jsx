@@ -28,7 +28,6 @@ const Home = () => {
       <CategoryCarousel />
       <LatestJobs />
       <Choose/>
-      <Team/>
       <Footer />
     </div>
   )
