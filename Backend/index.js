@@ -25,7 +25,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 app.use(urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:"https://hiringtactics.vercel.app",
+    origin:"https://hiring-tactics-1.onrender.com",
     credentials:true
 }
 app.use(cors(corsOptions));
